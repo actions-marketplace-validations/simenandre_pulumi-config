@@ -8,7 +8,7 @@ jobs:
     name: Update dist files and release
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@8f4b7f84864484a7bf31766abe9204da3cbe65b3
       - run: yarn install
       - run: yarn build
       - uses: stefanzweifel/git-auto-commit-action@v4.11.0

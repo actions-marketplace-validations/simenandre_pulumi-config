@@ -6,7 +6,7 @@ jobs:
   check-if-dist-changed:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@8f4b7f84864484a7bf31766abe9204da3cbe65b3
       - uses: dorny/paths-filter@v2
         id: changes
         with:
